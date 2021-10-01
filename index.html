@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- BG Animation Effect -->
+    <div class="bg-animation-effect"></div>
+    <!-- !BG Animation Effect -->
+
+    <!-- Overlay Effect -->
+    <div class="overlay-effect">
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+    </div>
+    <!-- !Overlay Effect -->
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <!-- nav -->
+                <nav class="nav">
+                    <div class="nav-inner">
+                        <ul>
+                            <li><a href="#about" class="nav-item link-item">Rusia</a></li>
+                            <li><a href="#portfolio" class="nav-item link-item">Temas</a></li>
+                            <li><a href="#last" class="nav-item link-item">Agradecimiento</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- !Header Section-->
+
+    <!-- About Section -->
+    <section class="about-section active" id="about">
+        <div class="container">
+            <div class="row min-vh-100">
+                <div class="about-content">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/25/20/05/international-2681246_960_720.jpg" alt="_russia">
+                    <h1>RUSIA</h1>
+                    <p>Expositores: <span>Hyân Bringas Velázquez</span> y <span>Arantxa Salinas Mayorido</span>. 
+                        <br>
+                        Comienzo: <a href="#portfolio" class="link-item">Aprendamos sobre Rusia!</a> </p>
+                    <h2>Temas que se abordarán el día de hoy:</h2>
+                    <div class="skills">
+                        <div class="skills-item">Geografía</div>
+                        <div class="skills-item">Política</div>
+                        <div class="skills-item">Población</div>
+                        <div class="skills-item">Cultura</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- !About Section -->
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Rusia</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-filter">
+                    <button type="button" title="Todos Los Temas" class="portfolio-filter-btn active" data-filter="all">Todos</button>
+                    <button type="button" title="Tema 1" class="portfolio-filter-btn" data-filter="Tema1">Geografía</button>
+                    <button type="button" title="Tema 2" class="portfolio-filter-btn" data-filter="Tema2">Política</button>
+                    <button type="button" title="Tema 3" class="portfolio-filter-btn" data-filter="Tema3">Población</button>
+                    <button type="button" title="Tema 4" class="portfolio-filter-btn" data-filter="Tema4">Cultura</button>
+                </div>
+                <div class="filter-status">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row portfolio-items">
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item" data-category="Tema1">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1531266752426-aad472b7bbf4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+                        <button type="button" class="btn more-info-btn">Ubicación Geográfica</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Ubicación Geográfica</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Rusia cuenta con un territorio de más de 17 millones de kilómetros cuadrados.</p>
+                            <br>
+                            <p>Está sitiuada en el este de Europa y en el norte de Asia.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Es el país<span>más grande del mundo</span></p>
+                            <p>Colinda en el Norte con: <span>Noruega y Finlandia</span></p>
+                            <p>Colinda en el Sur con: <span>Azerbaiyán, China, Georgia, Kazajstán, Corea del Norte, Lituania, Mongolia y Polonia</span></p>
+                            <p>Colinda en el Oeste con: <span>Bielorrusia, Estonia, Latvia y Ukrania</span></p>
+                            <p>Colinda en el Este con: <span>el Océano Pacífico</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item" data-category="Tema2">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="https://cdn.pixabay.com/photo/2017/10/13/11/49/putin-2847423_960_720.jpg" alt="">
+                        <button type="button" class="btn more-info-btn">Forma de Gobierno</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Forma de Gobierno</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Rusia es un estado federal democrático con forma republicana de gobierno</p>
+                            <br>
+                            <p>Presidente actual: Vladimir Putin</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Governante - <span>Presidente, elegido por los ciudadanos de Rusia</span></p>
+                            <p>Por ser una República, cuenta con 3 poderes: <span>Ejecutivo, Legislativo y Judicial</span></p>
+                            <p>Poder Ejecutivo: <span>Ejercido por el Gobierno, encabezado por el Primer Ministro</span></p>
+                            <p>Poder Legislativo: <span>Ejercido por la Asamblea General, constituída por 2 cámaras</span></p>
+                            <p>Cámara Alta: <span>Consejo de la Federación</span></p>
+                            <p>Cámara Baja: <span>Duma del Estado</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item" data-category="Tema3">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1546314029-800335ae7399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" alt="">
+                        <button type="button" class="btn more-info-btn">Población</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Población</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Rusia alcanza los 146.79 millones de habitantes</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Es el noveno país <span>más poblado del mundo</span></p>
+                            <p>Población Eslávica (Rusa) - <span>85.07%</span></p>
+                            <p>Población Turca - <span>9.36%</span></p>
+                            <p>Población Caucásica - <span>4.30%</span></p>
+                            <p>Población Coreana - <span>1.27%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item" data-category="Tema4">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1529203915787-cc54fa70a428?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+                        <button type="button" class="btn more-info-btn">Idioma</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Idioma</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>El idioma oficial es el Ruso, y es entendido por el 99% de la población. Aunque existen más de 100 lenguas habladas en Rusia, la mayoría de éstas están en pelígro de extinción.</p>
+                            <br>
+                            <p>Idiomas de otros países suelen ser aprendidos y utilizados, en la mayoría de los casos, en las ciudades más grandes de Rusia.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Los idiomas extranjeros más utilizados en el país son los siguientes:</p>
+                            <p>Inglés - <span>30%</span></p>
+                            <p>Alemán - <span>11%</span></p>
+                            <p>Francés - <span>6%</span></p>
+                            <p>Turco - <span>4%</span></p>
+                            <p>Ukraniano - <span>2%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item" data-category="Tema3">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1528357136257-0c25517acfea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+                        <button type="button" class="btn more-info-btn">Religión</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Religión</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>La mayor parte de los creyentes profesan la fe cristiana ortodoxa (aproximadamente un 71% del país).</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Otras creencias profesadas en el país son:</p>
+                            <p>Ateísmo - <span>Profesada por el 15% de la población</span></p>
+                            <p>Islam - <span>Profesada por el 10% de la población</span></p>
+                            <p>Catolicismo - <span>Profesada por el 2% de la población</span></p>
+                            <p>Budismo - <span>Profesada por el 1% de la población</span></p>
+                            <p>Judaísmo - <span>Profesada por el 1% de la población</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item" data-category="Tema4">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1544441893-675973e31985?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+                        <button type="button" class="btn more-info-btn">Vestimenta</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Vestimenta</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Tradicionalmente los hombres usaban pantalones, una camisa, por lo general con un cuello oblicuo, y encima cerraban con un cinturón. También era común que llevasen sombreros de lana fieltrada, que se podían encontrar en diferentes formas. Poco a poco el sombrero fue reemplazado por un sombrero de tela o una gorra de cuero, con una fuerte influencia del estilo urbano.</p>
+                            <br>
+                            <p>Las mujeres rusas solían utilizar una camisa con una falda y una especie de diadema llamada “Soroka”. Era común que usaran camisa de manga larga en lino y encima de ella usaban una falda conocida como “Poneva”. En la parte frontal utilizaban un delantal, mientras que en la parte superior algunos elementos adicionales.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item" data-category="Tema4">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1600041974426-c62f5a7eddb3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+                        <button type="button" class="btn more-info-btn">Gastronomía</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Gastronomía</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Existen muchos platillos tradicionales en Rusia</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Los más comunes son:</p>
+                            <p>Pelmeni - <span>Es un enrollado de carne o pollo y huevo duro</span></p>
+                            <p>Borsch - <span>Existen dos tipos de Borsch distintos: el frío y el caliente. El caliente, es una sopa de verduras, especialmente remolachas. En cambio el frío, es una sopa más bien dulce, ya que se debe azucarar y se sirve con crema ácida.</span></p>
+                            <p>Uja - <span>Sopa de salmón o bacalao con patatas.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item" data-category="Tema3">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=868&q=80" alt="">
+                        <button type="button" class="btn more-info-btn">Tradiciones</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Tradiciones</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Las fechas más celebradas en Rusia son:</p>
+                        </div>
+                        <div class="general-info">
+                            <p>1 al 5 de Enero - <span>Año Nuevo</span></p>
+                            <p>7 de Enero - <span>Navidad Ortodoxa</span></p>
+                            <p>23 de Febrero - <span>Día del Defensor de la Patria</span></p>
+                            <p>8 de Marzo - <span>Día Internacional de la Mujer</span></p>
+                            <p>1 de Mayo - <span>Día del Trabajador</span></p>
+                            <p>9 de Mayo - <span>Día de la Victoria</span></p>
+                            <p>12 de Junio - <span>Día de la Soberanía Nacional</span></p>
+                            <p>14 de Noviembre - <span>Día de la Unidad Nacional</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item" data-category="Tema1">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1578404421680-c4f8f3be26f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+                        <button type="button" class="btn more-info-btn">Clima</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Clima</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Generalemnte, el clima en Rusia suele ser excesivamente frío en los inviernos y cálidos o secos en los veranos.</p>
+                            <br>
+                            <p>Suelen ocurrir tormentas de nieve en algunas zonas del país, y puede llegar a nevar por 1 mes de manera continua. </p>
+                        </div>
+                        <div class="general-info">
+                            <p>Primavera - <span>Lluvia con ambiente cálido</span></p>
+                            <p>Verano - <span>Cálidos o calientes y secos, dependiendo de la zona.</span></p>
+                            <p>Otoño - <span>Vientos fuertes acompañados de lluvia ligera o pesada, dependiendo de la zona.</span></p>
+                            <p>Invierno - <span>Vientos muy fuertes, acompañados de nieve y lluvia congelada. Dependiendo de la zona, se pueden alcanzar hasta los -50°C. Se considera peligroso a partir de los -30°C.</span></p>
+                            <p>El lugar más frío registrado hasta la fecha se encuentra en Rusia, en un lugar llamado Oimjakon, donde se ha llegado a los -51°C</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+            </div>
+        </div>
+    </section>
+    <!-- !Portfolio Section -->
+
+    <!-- Portfolio Item Details Popup -->
+    <div class="portfolio-popup">
+        <div class="pp-overlay"></div>
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <h2 class="pp-counter"></h2>
+                    <button type="button" title="close" class="close-btn pp-close-btn"></button>
+                    <div class="pp-thumbnail">
+                        <img src="" alt="">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                    
+                </div>
+                <div class="pp-footer">
+                    <div class="pp-footer-left hidden">
+                        <button type="button" title="Tema Anterior" class="btn pp-prev-btn">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <h3></h3>
+                        <img src="" alt="">
+                    </div>
+                    <div class="pp-footer-right hidden">
+                        <button type="button" title="Siguiente Tema" class="btn pp-next-btn">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <h3></h3>
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- !Portfolio Item Details Popup -->
+
+    <!-- Last Section -->
+    <section class="about-section" id="last">
+        <div class="container">
+            <div class="row min-vh-100">
+                <div class="about-content">
+                    <h1>Спасибо!</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- !Last Section -->
+    <script src="script.js"></script>
+</body>
+</html>
